@@ -1,16 +1,13 @@
 ---
-
+import Layout from '../layouts/Layout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Willkommen beim DRK Fluorn-Winzeln">
+	<h1 class="text-4xl font-bold text-red-700 mb-4">
+		Herzlich Willkommen beim DRK Fluorn-Winzeln!
+	</h1>
+	<p class="text-lg">
+		Schön, dass Sie da sind. Hier finden Sie alle Informationen über unseren Ortsverein, 
+        aktuelle Termine und Neuigkeiten aus unserer Arbeit in und für Fluorn-Winzeln.
+	</p>
+</Layout>
